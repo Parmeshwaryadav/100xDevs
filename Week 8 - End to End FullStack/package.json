@@ -1,5 +1,5 @@
 {
-  "name": "week-4---node.js-and-http",
+  "name": "week-8---end-to-end-fullstack",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,8 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^5.3.0",
-    "commander": "^12.1.0",
-    "express": "^4.19.2"
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.3"
   }
 }
