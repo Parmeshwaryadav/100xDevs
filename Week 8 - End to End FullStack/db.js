@@ -1,11 +1,6 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 const ObjectId = mongoose.Types.ObjectId;
-console.log("MongoDb Connected");
-
-mongoose.connect(
-  "mongodb+srv://admin:$Heisenberg%4012$@cluster0.0hxfm.mongodb.net/udemy-app"
-);
 
 const userSchema = new Schema({
   email: { type: String, unique: true },
